@@ -221,42 +221,6 @@ RubJava=> nil
 =>    {:a=>1}
 
 50-
->> "%d %s" % [3, "rubies"]
-=>    “3 rubies”
-
-51-
->> x, y = 4, 5
-=>        [4, 5]
->> z = x > y ? x : y
-=>        5
->> x,y,z = [1,2,3]
-=>        [1, 2, 3]
-
-52-
-Hace la operación que nosotros queramos con esos valores, como por ejemplo la siguiente suma:
-
->> def test
->> yield(4,5)
->> end
-=> nil
->> test {|a,b| puts "Resultado de la suma: #{a+b}"}
-Resultado de la suma: 9
-=> nil
-
-53-
-counts = Hash.new(0) crea un Hash de 0 elementos y counts={} crea un array de 0 elementos.
-
-54-
-=> ["hello", "world", "hello", "LPP"]
-
-55- 
->>c = { :a => 3, :b => 2, :c => 1 }
-        {:a=>3, :b=>2, :c=>1}
->>c.keys.sort.each { |k| puts c[k] }
-3
-2
-1
-=> [:a, :b, :c]
 
 
 
